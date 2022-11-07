@@ -3,7 +3,7 @@
 
 ## 前言
 
-本项目支持的代理工具：Clash、Loon、QuantumultX、Quantumult、Shadowrocket、Surge
+本项目暂支持的代理工具：Clash、QuantumultX、Quantumult、Shadowrocket
 
 ## 特别声明
 

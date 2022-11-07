@@ -1,0 +1,10 @@
+# NAME: Weibo
+# AUTHOR: Jackjen8
+# UPDATED: 2022-10-18 21:04:00
+# HOST-KEYWORD: 1
+# HOST-SUFFIX: 3
+# TOTAL: 4
+HOST-SUFFIX,weibo.cn,Weibo
+HOST-SUFFIX,weibo.com,Weibo
+HOST-SUFFIX,weibocdn.com,Weibo
+HOST-KEYWORD,weibo,Weibo
