@@ -22,13 +22,13 @@
 
 
 QuantumultX分流规则（纯规则）：
-https://github.com/JackJen8/Scientific-Internet-Rules/edit/master/rule/QuantumultX
+https://github.com/JackJen8/Proxy-tool-rules/rule/QuantumultX
 
 Clash分流规则（纯规则）：
-https://github.com/JackJen8/Scientific-Internet-Rules/edit/master/rule/Clash
+https://github.com/JackJen8/Proxy-tool-rules/rule/Clash
 
 Shadowrocket分流规则（纯规则）：
-https://github.com/JackJen8/Scientific-Internet-Rules/edit/master/rule/Shadowrocket
+https://github.com/JackJen8/Proxy-tool-rules/rule/Shadowrocket
 
 
 所有规则数据都来自互联网，感谢开源规则项目作者的辛勤付出。
