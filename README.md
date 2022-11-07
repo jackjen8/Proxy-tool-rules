@@ -19,16 +19,3 @@
 ## 规则
 
 **我并不生产规则，我只是开源规则的搬运工。**
-
-
-QuantumultX分流规则（纯规则）：
-https://github.com/JackJen8/Proxy-tool-rules/blob/rule/QuantumultX
-
-Clash分流规则（纯规则）：
-https://github.com/JackJen8/Proxy-tool-rules/blob/rule/Clash
-
-Shadowrocket分流规则（纯规则）：
-https://github.com/JackJen8/Proxy-tool-rules/blob/rule/Shadowrocket
-
-
-所有规则数据都来自互联网，感谢开源规则项目作者的辛勤付出。
