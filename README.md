@@ -1,4 +1,4 @@
-# Rules And Scripts
+
 # 规则和脚本
 
 ## 前言
@@ -10,7 +10,7 @@
 ## 说明
 
 1. 项目中文件夹名称就是域名的归属：如“Tencent”就是“腾讯”公司的域名。部分说明会在“.List"文件中注释。
-2. 建议设置China（国内域名列表）、ChinaIPs（国内IP全部网段列表含ASN）走直连、其他全部走代理
+2. 如果你的服务器网速延迟不错且够稳定，建议设置China（国内域名列表）、ChinaIPs（国内IP全部网段列表含ASN）、Lan走直连、其他全部走代理
 
 ## 特别声明
 
@@ -24,5 +24,26 @@
 8. 本项目保留随时对免责声明进行补充或更改的权利，直接或间接使用本项目内容的个人或组织，视为接受本项目的特别声明。
 
 
+# Rules And Scripts
 
-**我并不生产规则，我只是开源规则的搬运工。**
+## Preface
+
+1. the proxy tools temporarily supported by this project: Clash, QuantumultX, Quantumult, Shadowrocket.
+2. I collated the rules personally think more complete and correct, please use it reasonably.
+3. This project will be updated in time.
+
+## Explanation
+
+1. The name of the folder in the project is the domain name: for example, "Tencent" is the domain name of the company "Tencent". Some of the instructions will be commented in the ".List" file. 
+2. If your server has good and stable network speed delay, it is recommended to set China (list of domestic domain names), ChinaIPs (list of all domestic IP segments including ASN), Lan to take direct connection, and all others to take proxy.
+
+## Special Announcement
+
+1. all resource files in this project, any public, self media forbidden any form of reproduction, release. 2.
+2. the main purpose of writing this project for learning and research, can not fully guarantee the legality, accuracy, completeness and validity of the project content.
+3. The data involved in this project is filled in by the individual or organization using it, and this project is not responsible for the content of the data, including but not limited to the truthfulness, accuracy and legality of the data. All consequences caused by the use of this project have nothing to do with all contributors to this project and are fully borne by the individual or organization using it.
+4. The third party hardware and software involved in this project have no direct or indirect relationship with this project. This project only provides an objective description of the deployment and use process, and does not represent support for the use of any third party hardware, software. The use of any third-party hardware, software, all the consequences caused by the use of the individual or organization to bear, not related to this project.
+5. All content in this project is for study and research purposes only, and no content in this project may be used for other purposes that violate the laws and regulations of the country/region/organization, etc. or related regulations.
+6. Any modification based on the source code of this project is the spontaneous behavior of other individuals or organizations, and has no direct or indirect relationship with this project, and all the consequences caused by it are not related to this project.
+7. All individuals and organizations who use this project directly or indirectly should complete their study and research within 24 hours and delete all the contents of this project in time. If there is a demand for the functions of this project, they should develop the relevant functions by themselves.
+8. The Project reserves the right to make additions or changes to the disclaimer at any time. Individuals or organizations that use the contents of the Project directly or indirectly are considered to accept the special disclaimer of the Project.
