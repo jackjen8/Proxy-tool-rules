@@ -39,7 +39,7 @@
 
 ## Special Announcement
 
-1. all resource files in this project, any public, self media forbidden any form of reproduction, release. 2.
+1. All resource files in this project, any public, self media forbidden any form of reproduction, release.
 2. the main purpose of writing this project for learning and research, can not fully guarantee the legality, accuracy, completeness and validity of the project content.
 3. The data involved in this project is filled in by the individual or organization using it, and this project is not responsible for the content of the data, including but not limited to the truthfulness, accuracy and legality of the data. All consequences caused by the use of this project have nothing to do with all contributors to this project and are fully borne by the individual or organization using it.
 4. The third party hardware and software involved in this project have no direct or indirect relationship with this project. This project only provides an objective description of the deployment and use process, and does not represent support for the use of any third party hardware, software. The use of any third-party hardware, software, all the consequences caused by the use of the individual or organization to bear, not related to this project.
