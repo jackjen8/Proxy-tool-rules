@@ -1,0 +1,7 @@
+# NAME: AppStore
+# AUTHOR: Jackjen8
+# UPDATED: 2022-11-03 17:09:28
+# HOST: 2
+# TOTAL: 2
+HOST,apps.apple.com,AppStore
+HOST,itunes.apple.com,AppStore
