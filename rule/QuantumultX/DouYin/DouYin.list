@@ -1,15 +1,34 @@
 # NAME: DouYin
 # AUTHOR: jackjen8
-# 抖音相关域名
-# UPDATED: 2022-11-03 17:11:25
-# HOST-SUFFIX: 6
-# TOTAL: 6
+# 抖音相关域名(中国大陆app）
+# UPDATED: 2022-11-14
+# HOST-SUFFIX: 26
+# TOTAL: 26
 HOST-SUFFIX,amemv.com,DouYin
 HOST-SUFFIX,ixigua.com,DouYin
 HOST-SUFFIX,ixiguavideo.com,DouYin
 HOST-SUFFIX,pstatp.com,DouYin
 HOST-SUFFIX,snssdk.com,DouYin
 HOST-SUFFIX,toutiao.com,DouYin
-HOST-SUFFIX,douyinpic.com,DouYin
 HOST-SUFFIX,douyinstatic.com,DouYin
+HOST-SUFFIX,douyin.com,DouYin
+HOST-SUFFIX,douyinact.com,DouYin
+HOST-SUFFIX,douyinact.net,DouYin
+HOST-SUFFIX,douyincdn.com,DouYin
+HOST-SUFFIX,douyinclips.com,DouYin
+HOST-SUFFIX,douyinmusicclips.com,DouYin
+HOST-SUFFIX,douyinmusicvideo.com,DouYin
+HOST-SUFFIX,douyinpic.com,DouYin
+HOST-SUFFIX,douyinshortvideo.com,DouYin
+HOST-SUFFIX,douyinstatic.com,DouYin
+HOST-SUFFIX,douyinvideo.net,DouYin
 HOST-SUFFIX,douyinvod.com,DouYin
+HOST-SUFFIX,dymusictape.com,DouYin
+HOST-SUFFIX,dymusicvideo.com,DouYin
+HOST-SUFFIX,dyshortvideo.com,DouYin
+HOST-SUFFIX,dyvideotape.com,DouYin
+HOST-SUFFIX,byteimg.com,DouYin
+HOST-SUFFIX,bytegoofy.com,DouYin
+HOST-SUFFIX,zijieapi.com,DouYin
+HOST-SUFFIX,bytegecko.com,DouYin
+
