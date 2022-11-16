@@ -3,9 +3,10 @@
 # Apple-Direct
 # 数据采集自apple官网 https://support.apple.com/zh-cn/HT210060
 # UPDATED: 2022-11-16
-# HOST: 106
+# HOST: 86
+# HOST-SUFFIX： 17
 # IP-CIDR: 3
-# TOTAL: 109
+# TOTAL: 106
 #设备设置
 #在设置您的设备或者安装、更新或恢复操作系统时，可能需要访问以下主机。
 HOST,albert.apple.com,Apple-Direct
@@ -20,7 +21,7 @@ HOST,time.apple.com,Apple-Direct
 HOST,time-macos.apple.com,Apple-Direct
 #设备管理
 #对于已在移动设备管理 (MDM) 中注册的设备，可能需要通过网络来访问以下主机。
-HOST,*.push.apple.com,Apple-Direct
+HOST-SUFFIX,push.apple.com,Apple-Direct
 HOST,deviceenrollment.apple.com,Apple-Direct
 HOST,deviceservices-external.apple.com,Apple-Direct
 HOST,gdmf.apple.com,Apple-Direct
@@ -31,8 +32,8 @@ HOST,setup.icloud.com,Apple-Direct
 HOST,vpp.itunes.apple.com,Apple-Direct
 #Apple 校园教务管理和 Apple 商务管理
 #要实现 Apple 校园教务管理和 Apple 商务管理的全部功能，需要通过网络访问以下主机以及“App Store”部分中的主机。
-HOST,*.business.apple.com,Apple-Direct
-HOST,*.school.apple.com,Apple-Direct
+HOST-SUFFIX,business.apple.com,Apple-Direct
+HOST-SUFFIX,school.apple.com,Apple-Direct
 HOST,upload.appleschoolcontent.com,Apple-Direct
 HOST,ws-ee-maidsvc.icloud.com,Apple-Direct
 #Apple Business Essentials 设备管理
@@ -67,9 +68,9 @@ HOST,updates.cdn-apple.com,Apple-Direct
 HOST,xp.apple.com,Apple-Direct
 #App Store
 #更新 App 时可能需要访问以下主机。
-HOST,*.itunes.apple.com,Apple-Direct
-HOST,*.apps.apple.com,Apple-Direct
-HOST,*.mzstatic.com,Apple-Direct
+HOST-SUFFIX,itunes.apple.com,Apple-Direct
+HOST-SUFFIX,apps.apple.com,Apple-Direct
+HOST-SUFFIX,mzstatic.com,Apple-Direct
 HOST,itunes.apple.com,Apple-Direct
 HOST,ppq.apple.com,Apple-Direct
 #运营商更新
@@ -96,7 +97,7 @@ IP-CIDR,17.248.128.0/18,Apple-Direct
 IP-CIDR,17.250.64.0/18,Apple-Direct
 IP-CIDR,17.248.192.0/19,Apple-Direct
 #App 验证
-HOST,*.appattest.apple.com,Apple-Direct
+HOST-SUFFIX,appattest.apple.com,Apple-Direct
 #反馈助理
 #“反馈助理”是一款供开发者和 Beta 版软件计划成员用来向 Apple 报告反馈的 App。它使用以下主机：
 HOST,bpapi.apple.com,Apple-Direct
@@ -129,16 +130,16 @@ HOST,idmsa.apple.com,Apple-Direct
 HOST,gsa.apple.com,Apple-Direct
 #iCloud
 #除了上面列出的 AppleID 主机外，Apple 设备必须能够连接到以下域的主机才能使用 iCloud 服务。
-HOST,*.apple-cloudkit.com,Apple-Direct
-HOST,*.apple-livephotoskit.com,Apple-Direct
-HOST,*.apzones.com,Apple-Direct
-HOST,*.cdn-apple.com,Apple-Direct
-HOST,*.gc.apple.com,Apple-Direct
-HOST,*.icloud.com,Apple-Direct
-HOST,*.icloud.com.cn,Apple-Direct
-HOST,*.icloud.apple.com,Apple-Direct
-HOST,*.icloud-content.com,Apple-Direct
-HOST,*.iwork.apple.com,Apple-Direct
+HOST-SUFFIX,apple-cloudkit.com,Apple-Direct
+HOST-SUFFIX,apple-livephotoskit.com,Apple-Direct
+HOST-SUFFIX,apzones.com,Apple-Direct
+HOST-SUFFIX,cdn-apple.com,Apple-Direct
+HOST-SUFFIX,gc.apple.com,Apple-Direct
+HOST-SUFFIX,icloud.com,Apple-Direct
+HOST-SUFFIX,icloud.com.cn,Apple-Direct
+HOST-SUFFIX,icloud.apple.com,Apple-Direct
+HOST-SUFFIX,icloud-content.com,Apple-Direct
+HOST-SUFFIX,iwork.apple.com,Apple-Direct
 HOST,mask.icloud.com,Apple-Direct
 HOST,mask-h2.icloud.com,Apple-Direct
 HOST,mask-api.icloud.com,Apple-Direct
