@@ -1,0 +1,152 @@
+# NAME: Apple-Direct
+# AUTHOR: jackjen8
+# Apple-Direct
+# 数据采集自apple官网 https://support.apple.com/zh-cn/HT210060
+# UPDATED: 2022-11-16
+# HOST: 106
+# IP-CIDR: 3
+# TOTAL: 109
+#设备设置
+#在设置您的设备或者安装、更新或恢复操作系统时，可能需要访问以下主机。
+HOST,albert.apple.com,Apple-Direct
+HOST,captive.apple.com,Apple-Direct
+HOST,gs.apple.com,Apple-Direct
+HOST,humb.apple.com,Apple-Direct
+HOST,static.ips.apple.com,Apple-Direct
+HOST,sq-device.apple.com,Apple-Direct
+HOST,tbsc.apple.com,Apple-Direct
+HOST,time-ios.apple.com,Apple-Direct
+HOST,time.apple.com,Apple-Direct
+HOST,time-macos.apple.com,Apple-Direct
+#设备管理
+#对于已在移动设备管理 (MDM) 中注册的设备，可能需要通过网络来访问以下主机。
+HOST,*.push.apple.com,Apple-Direct
+HOST,deviceenrollment.apple.com,Apple-Direct
+HOST,deviceservices-external.apple.com,Apple-Direct
+HOST,gdmf.apple.com,Apple-Direct
+HOST,identity.apple.com,Apple-Direct
+HOST,iprofiles.apple.com,Apple-Direct
+HOST,mdmenrollment.apple.com,Apple-Direct
+HOST,setup.icloud.com,Apple-Direct
+HOST,vpp.itunes.apple.com,Apple-Direct
+#Apple 校园教务管理和 Apple 商务管理
+#要实现 Apple 校园教务管理和 Apple 商务管理的全部功能，需要通过网络访问以下主机以及“App Store”部分中的主机。
+HOST,*.business.apple.com,Apple-Direct
+HOST,*.school.apple.com,Apple-Direct
+HOST,upload.appleschoolcontent.com,Apple-Direct
+HOST,ws-ee-maidsvc.icloud.com,Apple-Direct
+#Apple Business Essentials 设备管理
+#要实现 Apple Business Essentials 设备管理的全部功能，需要通过网络访问以下主机。
+HOST,axm-adm-enroll.apple.com,Apple-Direct
+HOST,axm-adm-mdm.apple.com,Apple-Direct
+HOST,axm-adm-scep.apple.com,Apple-Direct
+HOST,axm-app.apple.com,Apple-Direct
+#软件更新
+#为了更新 macOS、Mac App Store 中的 App 的端口以及使用内容缓存，确保您可以访问以下端口。
+#macOS、iOS、iPadOS、watchOS 和 Apple tvOS
+#安装、恢复以及更新 macOS、iOS、iPadOS、watchOS 和 Apple tvOS 时，需要通过网络访问以下主机名称。
+HOST,appldnld.apple.com,Apple-Direct
+HOST,configuration.apple.com,Apple-Direct
+HOST,gdmf.apple.com,Apple-Direct
+HOST,gg.apple.com,Apple-Direct
+HOST,gnf-mdn.apple.com,Apple-Direct
+HOST,gnf-mr.apple.com,Apple-Direct
+HOST,gs.apple.com,Apple-Direct
+HOST,ig.apple.com,Apple-Direct
+HOST,mesu.apple.com,Apple-Direct
+HOST,ns.itunes.apple.com,Apple-Direct
+HOST,oscdn.apple.com,Apple-Direct
+HOST,osrecovery.apple.com,Apple-Direct
+HOST,skl.apple.com,Apple-Direct
+HOST,swcdn.apple.com,Apple-Direct
+HOST,swdist.apple.com,Apple-Direct
+HOST,swdownload.apple.com,Apple-Direct
+HOST,swscan.apple.com,Apple-Direct
+HOST,updates-http.cdn-apple.com,Apple-Direct
+HOST,updates.cdn-apple.com,Apple-Direct
+HOST,xp.apple.com,Apple-Direct
+#App Store
+#更新 App 时可能需要访问以下主机。
+HOST,*.itunes.apple.com,Apple-Direct
+HOST,*.apps.apple.com,Apple-Direct
+HOST,*.mzstatic.com,Apple-Direct
+HOST,itunes.apple.com,Apple-Direct
+HOST,ppq.apple.com,Apple-Direct
+#运营商更新
+#蜂窝网络设备必须能够连接到以下主机才能安装运营商捆绑包更新。
+HOST,appldnld.apple.com,Apple-Direct
+HOST,appldnld.apple.com.edgesuite.net,Apple-Direct
+HOST,itunes.com,Apple-Direct
+HOST,itunes.apple.com,Apple-Direct
+HOST,updates-http.cdn-apple.com,Apple-Direct
+HOST,updates.cdn-apple.com,Apple-Direct
+#内容缓存
+#提供内容缓存的 Mac 必须能够连接到以下主机，以及这篇文稿中列出的提供 Apple 内容的主机，例如软件更新、App 和其他内容。
+HOST,lcdn-registration.apple.com,Apple-Direct
+HOST,suconfig.apple.com,Apple-Direct
+HOST,xp-cdn.apple.com,Apple-Direct
+#macOS 内容缓存的客户端必须能够连接到以下主机。
+HOST,lcdn-locator.apple.com,Apple-Direct
+HOST,serverstatus.apple.com,Apple-Direct
+#Apple Developer
+#进行 App 公证和 App 验证需要访问以下主机。
+#App 公证
+#从 macOS 10.14.5 开始，软件需通过公证检查，然后才能运行。要通过这项检查，Mac 必须能够访问“Customizing the Notarization Workflow”（自定公证工作流程）的“Ensure Your Build Server Has Network Access”（确保您的构建服务器可以访问网络）部分中列出的主机。
+IP-CIDR,17.248.128.0/18,Apple-Direct
+IP-CIDR,17.250.64.0/18,Apple-Direct
+IP-CIDR,17.248.192.0/19,Apple-Direct
+#App 验证
+HOST,*.appattest.apple.com,Apple-Direct
+#反馈助理
+#“反馈助理”是一款供开发者和 Beta 版软件计划成员用来向 Apple 报告反馈的 App。它使用以下主机：
+HOST,bpapi.apple.com,Apple-Direct
+HOST,cssubmissions.apple.com,Apple-Direct
+HOST,fba.apple.com,Apple-Direct
+#Apple 诊断
+#为了运行用于检测潜在硬件问题的诊断程序，Apple 设备可能会访问以下主机。
+HOST,diagassets.apple.com,Apple-Direct
+#域名系统解析
+#为了在 iOS 14、Apple tvOS 14 和 macOS Big Sur 中使用加密域名系统 (DNS) 解析，需要与以下主机进行通信。
+HOST,doh.dns.apple.com,Apple-Direct
+#证书验证
+#为了验证这篇文章列出的主机所使用的数字证书，Apple 设备必须能够连接到以下主机。
+HOST,certs.apple.com,Apple-Direct
+HOST,crl.apple.com,Apple-Direct
+HOST,crl.entrust.net,Apple-Direct
+HOST,crl3.digicert.com,Apple-Direct
+HOST,crl4.digicert.com,Apple-Direct
+HOST,ocsp.apple.com,Apple-Direct
+HOST,ocsp.digicert.cn,Apple-Direct
+HOST,ocsp.digicert.com,Apple-Direct
+HOST,ocsp.entrust.net,Apple-Direct
+HOST,ocsp2.apple.com,Apple-Direct
+HOST,valid.apple.com,Apple-Direct
+#Apple ID
+#Apple 设备必须能够连接到以下主机才能验证 AppleID。所有使用 AppleID 的服务（如 iCloud、App 安装和 Xcode）都需要满足这个条件。
+HOST,appleid.apple.com,Apple-Direct
+HOST,appleid.cdn-apple.com,Apple-Direct
+HOST,idmsa.apple.com,Apple-Direct
+HOST,gsa.apple.com,Apple-Direct
+#iCloud
+#除了上面列出的 AppleID 主机外，Apple 设备必须能够连接到以下域的主机才能使用 iCloud 服务。
+HOST,*.apple-cloudkit.com,Apple-Direct
+HOST,*.apple-livephotoskit.com,Apple-Direct
+HOST,*.apzones.com,Apple-Direct
+HOST,*.cdn-apple.com,Apple-Direct
+HOST,*.gc.apple.com,Apple-Direct
+HOST,*.icloud.com,Apple-Direct
+HOST,*.icloud.com.cn,Apple-Direct
+HOST,*.icloud.apple.com,Apple-Direct
+HOST,*.icloud-content.com,Apple-Direct
+HOST,*.iwork.apple.com,Apple-Direct
+HOST,mask.icloud.com,Apple-Direct
+HOST,mask-h2.icloud.com,Apple-Direct
+HOST,mask-api.icloud.com,Apple-Direct
+#附加内容
+#Apple 设备必须能够连接到以下主机才能下载附加内容。一些附加内容也可能托管在第三方内容分发网络上。
+HOST,audiocontentdownload.apple.com,Apple-Direct
+HOST,devimages-cdn.apple.com,Apple-Direct
+HOST,download.developer.apple.com,Apple-Direct
+HOST,playgrounds-assets-cdn.apple.com,Apple-Direct
+HOST,playgrounds-cdn.apple.com,Apple-Direct
+HOST,sylvan.apple.com,Apple-Direct
