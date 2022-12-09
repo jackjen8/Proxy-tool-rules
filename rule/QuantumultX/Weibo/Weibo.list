@@ -1,10 +1,24 @@
 # NAME: Weibo
 # AUTHOR: Jackjen8
-# UPDATED: 2022-10-18 21:04:00
+# UPDATED: 2022-12-09
 # HOST-KEYWORD: 1
-# HOST-SUFFIX: 3
-# TOTAL: 4
-HOST-SUFFIX,weibo.cn,Weibo
-HOST-SUFFIX,weibo.com,Weibo
-HOST-SUFFIX,weibocdn.com,Weibo
-HOST-KEYWORD,weibo,Weibo
+# HOST-SUFFIX: 15
+# USER-AGENT: 1
+# TOTAL: 17
+USER-AGENT, weibo*, Weibo
+HOST-KEYWORD, weibo, Weibo
+HOST-SUFFIX, weibocdn.com, Weibo
+HOST-SUFFIX, sinaimg.cn, Weibo
+HOST-SUFFIX, weibo.com, Weibo
+HOST-SUFFIX, weibo.cn, Weibo
+HOST-SUFFIX, sinajs.cn, Weibo
+HOST-SUFFIX, sina.com.cn, Weibo
+HOST-SUFFIX, sina.cn, Weibo
+HOST-SUFFIX,wbimg.cn, Weibo
+HOST-SUFFIX,wbimg.com, Weibo
+HOST-SUFFIX,wbimg.com.cn, Weibo
+HOST-SUFFIX,wcdn.cn, Weibo
+HOST-SUFFIX,weibo.com.cn, Weibo
+HOST-SUFFIX,weibo.tv, Weibo
+HOST-SUFFIX,weibocdn.cn, Weibo
+HOST-SUFFIX,weiboums.com, Weibo
