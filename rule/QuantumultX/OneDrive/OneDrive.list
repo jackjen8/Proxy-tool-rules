@@ -4,8 +4,7 @@
 # UPDATED: 2022-10-18 21:03:28
 # HOST: 1
 # HOST-KEYWORD: 3
-# HOST-SUFFIX: 10
-# USER-AGENT: 2
+# HOST-SUFFIX: 12
 # TOTAL: 16
 HOST,oneclient.sfx.ms,OneDrive
 HOST-SUFFIX,1drv.com,OneDrive
@@ -18,8 +17,8 @@ HOST-SUFFIX,skydrive.wns.windows.com,OneDrive
 HOST-SUFFIX,spoprod-a.akamaihd.net,OneDrive
 HOST-SUFFIX,storage.live.com,OneDrive
 HOST-SUFFIX,storage.msn.com,OneDrive
+HOST-SUFFIX,live.com,OneDrive
+HOST-SUFFIX,live.net,OneDrive
 HOST-KEYWORD,1drv,OneDrive
 HOST-KEYWORD,onedrive,OneDrive
 HOST-KEYWORD,skydrive,OneDrive
-USER-AGENT,OneDrive*,OneDrive
-USER-AGENT,OneDriveiOSApp*,OneDrive
