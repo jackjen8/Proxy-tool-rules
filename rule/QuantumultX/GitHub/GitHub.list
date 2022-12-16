@@ -3,7 +3,7 @@
 # 数据采集自: https://github.com/v2fly/domain-list-community/blob/master/data/github
 # UPDATED: 2022-12-04
 # HOST-SUFFIX: 21
-# HOST-SUFFIX: 2
+# HOST: 2
 # TOTAL: 23
 HOST-SUFFIX,atom.io,Github
 HOST-SUFFIX,dependabot.com,Github

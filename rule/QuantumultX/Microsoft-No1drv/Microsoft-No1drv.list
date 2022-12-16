@@ -1,0 +1,57 @@
+ # NAME: Microsoft-No1drv
+# AUTHOR: jackjen8
+# UPDATED: 2022-12-16
+# HOST-SUFFIX: 51
+# HOST-KEYWORD: 1
+ HOST-KEYWORD,microsoft,Microsoft-No1drv
+ HOST-SUFFIX,aadrm.com,Microsoft-No1drv
+ HOST-SUFFIX,acompli.com,Microsoft-No1drv
+ HOST-SUFFIX,acompli.net,Microsoft-No1drv
+ HOST-SUFFIX,aka.ms,Microsoft-No1drv
+ HOST-SUFFIX,akadns.net,Microsoft-No1drv
+ HOST-SUFFIX,aspnetcdn.com,Microsoft-No1drv
+ HOST-SUFFIX,assets-yammer.com,Microsoft-No1drv
+ HOST-SUFFIX,azure.com,Microsoft-No1drv
+ HOST-SUFFIX,azure.net,Microsoft-No1drv
+ HOST-SUFFIX,azureedge.net,Microsoft-No1drv
+ HOST-SUFFIX,azurerms.com,Microsoft-No1drv
+ HOST-SUFFIX,bing.com,Microsoft-No1drv
+ HOST-SUFFIX,cloudapp.net,Microsoft-No1drv
+ HOST-SUFFIX,cloudappsecurity.com,Microsoft-No1drv
+ HOST-SUFFIX,edgesuite.net,Microsoft-No1drv
+ HOST-SUFFIX,gfx.ms,Microsoft-No1drv
+ HOST-SUFFIX,hotmail.com,Microsoft-No1drv
+ HOST-SUFFIX,lync.com,Microsoft-No1drv
+ HOST-SUFFIX,msappproxy.net,Microsoft-No1drv
+ HOST-SUFFIX,msauth.net,Microsoft-No1drv
+ HOST-SUFFIX,msauthimages.net,Microsoft-No1drv
+ HOST-SUFFIX,msecnd.net,Microsoft-No1drv
+ HOST-SUFFIX,msedge.net,Microsoft-No1drv
+ HOST-SUFFIX,msft.net,Microsoft-No1drv
+ HOST-SUFFIX,msftauth.net,Microsoft-No1drv
+ HOST-SUFFIX,msftauthimages.net,Microsoft-No1drv
+ HOST-SUFFIX,msftidentity.com,Microsoft-No1drv
+ HOST-SUFFIX,msidentity.com,Microsoft-No1drv
+ HOST-SUFFIX,msn.cn,Microsoft-No1drv
+ HOST-SUFFIX,msn.com,Microsoft-No1drv
+ HOST-SUFFIX,msocdn.com,Microsoft-No1drv
+ HOST-SUFFIX,msocsp.com,Microsoft-No1drv
+ HOST-SUFFIX,mstea.ms,Microsoft-No1drv
+ HOST-SUFFIX,o365weve.com,Microsoft-No1drv
+ HOST-SUFFIX,oaspapps.com,Microsoft-No1drv
+ HOST-SUFFIX,office.com,Microsoft-No1drv
+ HOST-SUFFIX,office.net,Microsoft-No1drv
+ HOST-SUFFIX,office365.com,Microsoft-No1drv
+ HOST-SUFFIX,officeppe.net,Microsoft-No1drv
+ HOST-SUFFIX,omniroot.com,Microsoft-No1drv
+ HOST-SUFFIX,onenote.com,Microsoft-No1drv
+ HOST-SUFFIX,onenote.net,Microsoft-No1drv
+ HOST-SUFFIX,onestore.ms,Microsoft-No1drv
+ HOST-SUFFIX,outlook.com,Microsoft-No1drv
+ HOST-SUFFIX,outlookmobile.com,Microsoft-No1drv
+ HOST-SUFFIX,phonefactor.net,Microsoft-No1drv
+ HOST-SUFFIX,public-trust.com,Microsoft-No1drv
+ HOST-SUFFIX,sfbassets.com,Microsoft-No1drv
+ HOST-SUFFIX,sfx.ms,Microsoft-No1drv
+ HOST-SUFFIX,sharepoint.com,Microsoft-No1drv
+ HOST-SUFFIX,sharepointonline.com,Microsoft-No1drv
