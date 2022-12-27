@@ -151,3 +151,7 @@ HOST,download.developer.apple.com,Apple-Direct
 HOST,playgrounds-assets-cdn.apple.com,Apple-Direct
 HOST,playgrounds-cdn.apple.com,Apple-Direct
 HOST,sylvan.apple.com,Apple-Direct
+#其他apple域名
+HOST,testflight.apple.com,Apple-Direct
+HOST-SUFFIX,ls.apple.com,Apple-Direct
+HOST,gsas.apple.com,Apple-Direct
