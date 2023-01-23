@@ -8,7 +8,7 @@
 HOST-SUFFIX,atom.io,Github
 HOST-SUFFIX,dependabot.com,Github
 HOST-SUFFIX,ghcr.io,Github
-HOST-SUFFIX,git.io
+HOST-SUFFIX,git.io,Github
 HOST-SUFFIX,github.blog,Github
 HOST-SUFFIX,github.com,Github
 HOST-SUFFIX,github.community,Github
