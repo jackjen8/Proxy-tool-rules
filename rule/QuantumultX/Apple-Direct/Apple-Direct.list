@@ -159,3 +159,4 @@ HOST-SUFFIX,ess.apple.com,Apple-Direct
 HOST,api.smoot.apple.com,Apple-Direct
 HOST,weather-analytics-events.apple.com,Apple-Direct
 HOST-SUFFIX,push.apple.com,Apple-Direct
+HOST,gateway.icloud.com, Apple-Direct
