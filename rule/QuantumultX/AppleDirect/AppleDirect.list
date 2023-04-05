@@ -14,7 +14,7 @@ host, time.apple.com, AppleDirect
 host, time-macos.apple.com, AppleDirect
 # 设备管理
 # 已在 MDM 中注册的 Apple 设备需要访问以下主机和域。
-host-suffix,push.apple.com, AppleDirect, AppleDirect
+host-suffix,push.apple.com, AppleDirect
 host, deviceenrollment.apple.com, AppleDirect
 host, deviceservices-external.apple.com, AppleDirect
 host, gdmf.apple.com, AppleDirect
@@ -25,16 +25,16 @@ host, setup.icloud.com, AppleDirect
 host, vpp.itunes.apple.com, AppleDirect
 # Apple 商务管理和 Apple 校园教务管理
 # 管理员和管理人员需要访问以下主机和域，才能管理 Apple 商务管理和 Apple 校园教务管理。
-host-suffix,business.apple.com, AppleDirect, AppleDirect
-host-suffix,school.apple.com, AppleDirect, AppleDirect
+host-suffix,business.apple.com, AppleDirect
+host-suffix,school.apple.com, AppleDirect
 host, appleid.cdn-apple.com, AppleDirect
 host, idmsa.apple.com, AppleDirect
-host-suffix,itunes.apple.com, AppleDirect, AppleDirect
-host-suffix,mzstatic.com, AppleDirect, AppleDirect
+host-suffix,itunes.apple.com, AppleDirect
+host-suffix,mzstatic.com, AppleDirect
 host, api.ent.apple.com, AppleDirect
 host, api.edu.apple.com, AppleDirect
 host, statici.icloud.com, AppleDirect
-host-suffix,vertexsmb.com, AppleDirect, AppleDirect
+host-suffix,vertexsmb.com, AppleDirect
 host, www.apple.com.cn, AppleDirect
 host, upload.appleschoolcontent.com, AppleDirect
 # 使用管理式 Apple ID 的员工和学生需要访问以下主机，才能在编写信息或共享文稿时查询所属企业或学校中的其他人。
@@ -45,7 +45,7 @@ host, axm-adm-enroll.apple.com, AppleDirect
 host, axm-adm-mdm.apple.com, AppleDirect
 host, axm-adm-scep.apple.com, AppleDirect
 host, axm-app.apple.com, AppleDirect
-host-suffix,apple-mapkit.com, AppleDirect, AppleDirect
+host-suffix,apple-mapkit.com, AppleDirect
 host, icons.axm-usercontent-apple.com, AppleDirect
 # “课堂”和“课业”
 # 使用“课堂”或“课业”App 的学生和教师设备需要访问以下主机，以及在下文的 Apple ID 和 iCloud 部分中列出的主机。
@@ -58,7 +58,7 @@ host, cls-iosclient.itunes.apple.com, AppleDirect
 host, cls-ingest.itunes.apple.com, AppleDirect
 # 软件更新
 # 为了更新 macOS、Mac App Store 中的 App 的端口以及使用内容缓存，确保你可以访问以下端口。
-host, macOS、iOS、iPadOS、watchOS 和 Apple tvOS, AppleDirect
+# macOS、iOS、iPadOS、watchOS 和 Apple tvOS
 # 在安装、恢复和更新 iOS、iPadOS、macOS、watchOS 及 Apple tvOS 时，Apple 设备需要访问以下主机。
 host, appldnld.apple.com, AppleDirect
 host, configuration.apple.com, AppleDirect
@@ -78,11 +78,10 @@ host, swscan.apple.com, AppleDirect
 host, updates-http.cdn-apple.com, AppleDirect
 host, updates.cdn-apple.com, AppleDirect
 host, xp.apple.com, AppleDirect
-host, App Store, AppleDirect
 # Apple 设备需要访问以下主机和域，才能安装和更新 App。
-host-suffix,itunes.apple.com, AppleDirect, AppleDirect
-host-suffix,apps.apple.com, AppleDirect, AppleDirect
-host-suffix,mzstatic.com, AppleDirect, AppleDirect
+host-suffix,itunes.apple.com, AppleDirect
+host-suffix,apps.apple.com, AppleDirect
+host-suffix,mzstatic.com, AppleDirect
 host, itunes.apple.com, AppleDirect
 host, ppq.apple.com, AppleDirect
 # 运营商更新
@@ -105,7 +104,7 @@ host, serverstatus.apple.com, AppleDirect
 # App 需要经过 App 公证，才能在 macOS 10.14 及更高版本上运行。门禁需要访问 Apple 服务器，才能验证公证，除非 App 开发者已经将公证票据附加到 App。App 开发者可以进一步了解如何自定公证工作流程。
 # App 验证用于证明 App 的有效实例正在运行。App 开发者可以进一步了解如何建立 App 的完整性。
 host, api.apple-cloudkit.com, AppleDirect
-host-suffix,appattest.apple.com, AppleDirect, AppleDirect
+host-suffix,appattest.apple.com, AppleDirect
 # 反馈助理
 # “反馈助理”是一款供开发者和 Beta 版软件计划成员用来向 Apple 报告反馈的 App。它使用以下主机：
 host, bpapi.apple.com, AppleDirect
@@ -113,7 +112,7 @@ host, bpapi.apple.com, AppleDirect
 # 为了运行用于检测潜在硬件问题的诊断程序，Apple 设备可能会访问以下主机。
 host, diagassets.apple.com, AppleDirect
 # 域名系统解析
-host, iOS 14、iPadOS 14、Apple tvOS 14 和 macOS Big Sur 及更高版本中的加密域名系统 (DNS) 解析使用以下主机。, AppleDirect
+# iOS 14、iPadOS 14、Apple tvOS 14 和 macOS Big Sur 及更高版本中的加密域名系统 (DNS) 解析使用以下主机。
 host, doh.dns.apple.com, AppleDirect
 # 证书验证
 # 为了验证这篇文章列出的主机所使用的数字证书，Apple 设备必须能够连接到以下主机。
@@ -128,36 +127,36 @@ host, ocsp.digicert.com, AppleDirect
 host, ocsp.entrust.net, AppleDirect
 host, ocsp2.apple.com, AppleDirect
 host, valid.apple.com, AppleDirect
-host, Apple ID, AppleDirect
+# Apple ID
 # Apple 设备必须能够连接到以下主机才能验证 Apple ID。所有使用 Apple ID 的服务（如 iCloud、App 安装和 Xcode）都需要满足这个条件。
 host, appleid.apple.com, AppleDirect
 host, appleid.cdn-apple.com, AppleDirect
 host, idmsa.apple.com, AppleDirect
 host, gsa.apple.com, AppleDirect
-host, iCloud, AppleDirect
+# iCloud
 # 除了上面列出的 Apple ID 主机外，Apple 设备必须能够连接到以下域的主机才能使用 iCloud 服务。
-host-suffix,apple-cloudkit.com, AppleDirect, AppleDirect
-host-suffix,apple-livephotoskit.com, AppleDirect, AppleDirect
-host-suffix,apzones.com, AppleDirect, AppleDirect
-host-suffix,cdn-apple.com, AppleDirect, AppleDirect
-host-suffix,gc.apple.com, AppleDirect, AppleDirect
-host-suffix,icloud.com, AppleDirect, AppleDirect
-host-suffix,icloud.com.cn, AppleDirect, AppleDirect
-host-suffix,icloud.apple.com, AppleDirect, AppleDirect
-host-suffix,icloud-content.com, AppleDirect, AppleDirect
-host-suffix,iwork.apple.com, AppleDirect, AppleDirect
+host-suffix,apple-cloudkit.com, AppleDirect
+host-suffix,apple-livephotoskit.com, AppleDirect
+host-suffix,apzones.com, AppleDirect
+host-suffix,cdn-apple.com, AppleDirect
+host-suffix,gc.apple.com, AppleDirect
+host-suffix,icloud.com, AppleDirect
+host-suffix,icloud.com.cn, AppleDirect
+host-suffix,icloud.apple.com, AppleDirect
+host-suffix,icloud-content.com, AppleDirect
+host-suffix,iwork.apple.com, AppleDirect
 host, mask.icloud.com, AppleDirect
 host, mask-h2.icloud.com, AppleDirect
 host, mask-api.icloud.com, AppleDirect
 # Siri 和搜索
 # Apple 设备必须能够连接到以下主机，才能处理 Siri 请求，包括听写和在 Apple App 中搜索。
 host, guzzoni.apple.com, AppleDirect
-host-suffix,smoot.apple.com, AppleDirect, AppleDirect
-host, Associated Domains, AppleDirect
+host-suffix,smoot.apple.com, AppleDirect
+# Associated Domains
 # Apple 设备必须能够连接到以下主机，才能在 iOS 14、iPadOS 14 和 macOS Big Sur 及更高版本中使用关联域。关联域是通用链接的基础，通用链接功能可让 App 呈现网站的全部或部分内容。接力、轻 App 和单点登录扩展都使用关联域。
 host, app-site-association.cdn-apple.com, AppleDirect
 host, app-site-association.networking.apple, AppleDirect
-host, Tap to Pay on iPhone, AppleDirect
+# Tap to Pay on iPhone
 # 要通过付款 App 接受免接触式支付，iPhone 必须能够与以下主机通信。
 host, pos-device.apple.com, AppleDirect
 host, humb.apple.com, AppleDirect
