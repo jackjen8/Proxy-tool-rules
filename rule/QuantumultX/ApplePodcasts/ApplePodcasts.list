@@ -1,8 +1,0 @@
-# NAME: ApplePodcasts
-# Apple播客的域名，需要代理才能访问
-# AUTHOR: Jackjen8
-# UPDATED: 2022-11-08
-# HOST: 2
-# TOTAL: 2
-HOST,amp-api.podcasts.apple.com,ApplePodcasts
-HOST,bookkeeper.itunes.apple.com,ApplePodcasts
