@@ -169,6 +169,8 @@ host, download.developer.apple.com, AppleDirect
 host, playgrounds-assets-cdn.apple.com, AppleDirect
 host, playgrounds-cdn.apple.com, AppleDirect
 host, sylvan.apple.com, AppleDirect
+# Apple
+host-suffix,apple.com, AppleDirect
 # apple的IP网段
 ip-cidr,17.0.0.0/8, AppleDirect
 ip-cidr,63.92.224.0/19,AppleDirect
