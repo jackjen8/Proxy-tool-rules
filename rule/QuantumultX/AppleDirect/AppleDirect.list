@@ -170,13 +170,13 @@ host, playgrounds-assets-cdn.apple.com, AppleDirect
 host, playgrounds-cdn.apple.com, AppleDirect
 host, sylvan.apple.com, AppleDirect
 # apple的IP网段
-ip-cidr,17.0.0.0/8, AppleDirect,no-resolve
-ip-cidr,63.92.224.0/19,AppleDirect,no-resolve
-ip-cidr,65.199.22.0/23,AppleDirect,no-resolve
-ip-cidr,139.178.128.0/18,AppleDirect,no-resolve
-ip-cidr,144.178.0.0/19,AppleDirect,no-resolve
-ip-cidr,144.178.36.0/22,AppleDirect,no-resolve
-ip-cidr,144.178.48.0/20,AppleDirect,no-resolve
-ip-cidr,192.35.50.0/24,AppleDirect,no-resolve
-ip-cidr,198.183.17.0/24,AppleDirect,no-resolve
-ip-cidr,205.180.175.0/24,AppleDirect,no-resolve
+ip-cidr,17.0.0.0/8, AppleDirect
+ip-cidr,63.92.224.0/19,AppleDirect
+ip-cidr,65.199.22.0/23,AppleDirect
+ip-cidr,139.178.128.0/18,AppleDirect
+ip-cidr,144.178.0.0/19,AppleDirect
+ip-cidr,144.178.36.0/22,AppleDirect
+ip-cidr,144.178.48.0/20,AppleDirect
+ip-cidr,192.35.50.0/24,AppleDirect
+ip-cidr,198.183.17.0/24,AppleDirect
+ip-cidr,205.180.175.0/24,AppleDirect
